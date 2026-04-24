@@ -1,8 +1,8 @@
 import joblib 
 
 
-bow_vectorizer_lem = joblib.load('/Users/apple/downloads/Placement/bow_vectorizer_lem.pkl')
-xgb_bow_lem = joblib.load('/Users/apple/downloads/Placement/depression_detection_model.pkl')
+bow_vectorizer_lem = joblib.load('bow_vectorizer_lem.pkl')
+xgb_bow_lem = joblib.load('depression_detection_model.pkl')
 
 print("AI system: Hello! I'm here to help.let us start our session by asking, how are you today?")
 counter=0
