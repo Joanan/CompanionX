@@ -63,7 +63,7 @@ for msg in st.session_state["messages"]:
 # Input box and submit button
 #user_input = st.chat_input("Share how you're feeling...")
 #st.text_input
-st.chat_input(
+st.text_input(
     "You:", placeholder="Share how you're feeling...", key="user_input", on_change=submit_data
 )
 
